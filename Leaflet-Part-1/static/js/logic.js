@@ -27,7 +27,7 @@ function pick_color(depth){
     else if (depth < 30) color =  "greenyellow";
     else if (depth < 50) color =  "yellow";
     else if (depth < 70) color =  "orange";
-    else if (depth < 90) color =  "orangered";
+    else if (depth < 90) color =  "red";
     else color =  "#FF0000";
 
     console.log(' depth : ', depth, ' color : ',color);
